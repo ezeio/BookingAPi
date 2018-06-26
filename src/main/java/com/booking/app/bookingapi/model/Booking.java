@@ -1,15 +1,24 @@
 package com.booking.app.bookingapi.model;
 
+import javax.persistence.*;
 import java.time.LocalDateTime;
 
+@Entity
 public class Booking {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long bookingNum;
+    @ManyToOne
+    @JoinColumn(nullable = false)
     private User user;
+    @OneToOne()
+    @JoinColumn
     private Itenary itenary;
+    @Column
     private LocalDateTime creationTime;
+    @Column
     private LocalDateTime modifiedTime;
-
 
     public Long getBookingNum() {
         return bookingNum;

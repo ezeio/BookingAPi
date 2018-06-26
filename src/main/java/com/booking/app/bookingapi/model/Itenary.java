@@ -1,9 +1,6 @@
 package com.booking.app.bookingapi.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.time.LocalDateTime;
 
 @Entity
@@ -12,11 +9,18 @@ public class Itenary {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
+    @Column
     private String departure;
+    @Column
     private String arrival;
+    @Column
     private LocalDateTime departureTime;
+    @Column
     private LocalDateTime arrivalTime;
+    @Column
     private boolean noneStop;
+    @OneToOne(mappedBy = "itenary")
+    private Booking booking;
 
 
     public String getDepature() {

@@ -1,9 +1,6 @@
 package com.booking.app.bookingapi.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.util.Set;
 
 @Entity
@@ -12,11 +9,11 @@ public class User {
     @Id()
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-
+    @Column
     private String firstName;
-
+    @Column
     private String lastName;
-
+    @OneToMany(mappedBy = "user")
     private Set<Booking> bookings;
 
     public String getFirstName() {
