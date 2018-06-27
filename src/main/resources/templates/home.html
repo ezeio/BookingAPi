@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Booking service</title>
+
+    <meta http-equiv="content-type" content="text/html" ; charset="charset=UTF-8"/>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+    <div class="navbar-header">
+        <a class="navbar-brand" href="/">Booking App</a>
+    </div>
+
+</nav>
+
+<div class="container-fluid" style="min-height: 500px" >
+
+    <div class="jumbotron jumbotron">
+        <h1>View Bookings</h1>
+
+        <div id="feedback"></div>
+
+        <form class="form-horizontal" id="search-form">
+            <div class="form-group form-group-lg">
+                <label class="col-sm-2 control-label">User Id</label>
+                <div class="col-sm-1">
+                    <input type="text" class="form-control" id="userId"/>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" id="bth-get"
+                            class="btn btn-primary btn-lg">Get Bookings
+                    </button>
+                </div>
+            </div>
+        </form>
+
+    </div>
+
+</div>
+
+<div>
+    <table class="table table-dark" id="records_table" >
+        <thead>
+            <th>Booking id</th>
+            <th>Date Booked</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Departure</th>
+            <th>Departure Date</th>
+            <th>Arrival</th>
+            <th>Arrival Date</th>
+            <th>None Stop</th>
+        </thead>
+
+    </table>
+
+</div>
+
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</body>
+
+<script type="text/javascript" src="js/main.js"></script>
+</html>
