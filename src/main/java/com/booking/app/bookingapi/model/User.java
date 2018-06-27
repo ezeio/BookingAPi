@@ -1,5 +1,7 @@
 package com.booking.app.bookingapi.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 import java.util.Set;
 
@@ -31,7 +33,7 @@ public class User {
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
-
+    @JsonIgnore
     public Set<Booking> getBookings() {
         return bookings;
     }

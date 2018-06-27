@@ -23,11 +23,11 @@ public class Itenary {
     private Booking booking;
 
 
-    public String getDepature() {
+    public String getDeparture() {
         return departure;
     }
 
-    public void setDepature(String depature) {
+    public void setDeparture(String depature) {
         this.departure = depature;
     }
 
