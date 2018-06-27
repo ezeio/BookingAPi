@@ -14,7 +14,12 @@
 
 # API
 
-GET /users/{id}/bookings 
-GET /users/{id}/bookings/{limit} 
-GET /users/{id}/bookings/{id}  
-GET /users/{id}/bookings/{id}/itenary
+GET /bookings/users/{id}
+
+GET /bookings/{id}
+
+GET bookings/(?limit)
+
+GET /bookings/{id}/user
+
+GET /bookings/{id}/Itenary
