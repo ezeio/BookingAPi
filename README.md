@@ -13,7 +13,9 @@
 
 * Get all the bookings but limit the number of bookings returned
 
-* Get an itenary for a user given a userId and bookingId
+* Get a user given a bookingId
+
+* Get an itenary for a user given a bookingId
 
 # API
 
