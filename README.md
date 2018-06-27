@@ -27,4 +27,4 @@ GET /bookings/{id}/user
 
 GET /bookings/{id}/Itenary
 
-I ran tests on the API using postman. I using write automated tests using restassured library. Something similar to what I did her: https://github.com/ezeio/MessageAPI
+I ran tests on the API using postman. I usually write automated tests using restassured library, cucumber and junit. Something similar to what I did her: https://github.com/ezeio/MessageAPI
