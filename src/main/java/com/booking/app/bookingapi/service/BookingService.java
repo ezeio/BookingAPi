@@ -1,8 +1,8 @@
 package com.booking.app.bookingapi.service;
 
-import com.booking.app.bookingapi.model.Booking;
-import com.booking.app.bookingapi.model.Itenary;
-import com.booking.app.bookingapi.model.User;
+import com.booking.app.bookingapi.models.Booking;
+import com.booking.app.bookingapi.models.Itenary;
+import com.booking.app.bookingapi.models.User;
 
 import java.util.List;
 

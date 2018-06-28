@@ -1,4 +1,4 @@
-package com.booking.app.bookingapi.model;
+package com.booking.app.bookingapi.models;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
@@ -20,7 +20,7 @@ public class Booking {
     @Column
     private LocalDateTime modifiedTime;
 
-    public Long getBookingNum() {
+    public Long getBookingId() {
         return bookingNum;
     }
 

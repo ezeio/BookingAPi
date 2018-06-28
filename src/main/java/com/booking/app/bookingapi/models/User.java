@@ -1,4 +1,4 @@
-package com.booking.app.bookingapi.model;
+package com.booking.app.bookingapi.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 

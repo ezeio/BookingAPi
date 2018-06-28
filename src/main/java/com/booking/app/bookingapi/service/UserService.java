@@ -1,6 +1,6 @@
 package com.booking.app.bookingapi.service;
 
-import com.booking.app.bookingapi.model.Booking;
+import com.booking.app.bookingapi.models.Booking;
 import org.springframework.stereotype.Repository;
 
 import java.util.Set;
