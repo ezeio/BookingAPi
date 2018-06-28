@@ -1,8 +1,8 @@
 package com.booking.app.bookingapi.controllers;
 
-import com.booking.app.bookingapi.model.Booking;
-import com.booking.app.bookingapi.model.Itenary;
-import com.booking.app.bookingapi.model.User;
+import com.booking.app.bookingapi.models.Booking;
+import com.booking.app.bookingapi.models.Itenary;
+import com.booking.app.bookingapi.models.User;
 import com.booking.app.bookingapi.service.BookingService;
 import com.booking.app.bookingapi.validation.BookingValidation;
 import org.springframework.beans.factory.annotation.Autowired;

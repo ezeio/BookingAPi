@@ -2,9 +2,9 @@ package com.booking.app.bookingapi.service.impl;
 
 import com.booking.app.bookingapi.exception.BookingNotFoundException;
 import com.booking.app.bookingapi.exception.EmptyDatabaseException;
-import com.booking.app.bookingapi.model.Booking;
-import com.booking.app.bookingapi.model.Itenary;
-import com.booking.app.bookingapi.model.User;
+import com.booking.app.bookingapi.models.Booking;
+import com.booking.app.bookingapi.models.Itenary;
+import com.booking.app.bookingapi.models.User;
 import com.booking.app.bookingapi.repository.BookingRepository;
 import com.booking.app.bookingapi.service.BookingService;
 import org.springframework.beans.factory.annotation.Autowired;

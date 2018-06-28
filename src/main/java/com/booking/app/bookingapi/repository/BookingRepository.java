@@ -1,7 +1,6 @@
 package com.booking.app.bookingapi.repository;
 
-import com.booking.app.bookingapi.model.Booking;
-import org.springframework.data.jpa.repository.Query;
+import com.booking.app.bookingapi.models.Booking;
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.stereotype.Repository;
 
