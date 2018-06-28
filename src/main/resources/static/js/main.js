@@ -44,15 +44,15 @@ function createTableRow(data) {
     $.each(data,function (key, value) {
        tableBody +=
            '<tbody>'+
-           '<tr><td>' + value.bookingNum +
+           '<tr><td>' + value.bookingId +
             '</td><td>'+ value.creationTime +
-            '</td><td>'+ value.user.firstName +
-            '</td><td>'+ value.user.lastName +
-            '</td><td>'+ value.itenary.departure +
-            '</td><td>'+ value.itenary.departureTime +
-            '</td><td>'+ value.itenary.arrival +
-            '</td><td>'+ value.itenary.arrivalTime +
-            '</td><td>'+ value.itenary.noneStop +
+            '</td><td>'+ value.firstName +
+            '</td><td>'+ value.lastName +
+            '</td><td>'+ value.departure +
+            '</td><td>'+ value.departureTime +
+            '</td><td>'+ value.arrival +
+            '</td><td>'+ value.arrivalTime +
+            '</td><td>'+ value.noneStop +
            '</td></tr>' +
            '</tbody>'
     });

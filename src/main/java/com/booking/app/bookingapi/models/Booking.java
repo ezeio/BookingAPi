@@ -20,7 +20,7 @@ public class Booking {
     @Column
     private LocalDateTime modifiedTime;
 
-    public Long getBookingNum() {
+    public Long getBookingId() {
         return bookingNum;
     }
 
