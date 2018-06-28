@@ -1,4 +1,4 @@
-package com.booking.app.bookingapi.controller;
+package com.booking.app.bookingapi.controllers;
 
 import com.booking.app.bookingapi.model.Booking;
 import com.booking.app.bookingapi.model.Itenary;
